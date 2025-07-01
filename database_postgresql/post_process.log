@@ -106,3 +106,5 @@ PostgreSQL is starting on port 5000...
 2025-07-01 05:18:00.149 UTC [6594] STATEMENT:  INSERT INTO tasks (title, description, status, user_id, position) VALUES ('Invalid Task', 'This should fail due to invalid user_id', 'To Do', 999, 1);
 2025-07-01 05:20:18.201 UTC [709] LOG:  checkpoint starting: time
 2025-07-01 05:20:30.303 UTC [709] LOG:  checkpoint complete: wrote 121 buffers (0.7%); 0 WAL file(s) added, 0 removed, 0 recycled; write=12.021 s, sync=0.075 s, total=12.102 s; sync files=82, longest=0.004 s, average=0.001 s; distance=353 kB, estimate=4119 kB; lsn=0/19B6430, redo lsn=0/19B63F8
+2025-07-01 05:37:01.801 UTC [15277] ERROR:  column "name" of relation "users" does not exist at character 42
+2025-07-01 05:37:01.801 UTC [15277] STATEMENT:  INSERT INTO users (email, password_hash, name, created_at) VALUES ($1, $2, $3, NOW()) RETURNING id, email, name, created_at

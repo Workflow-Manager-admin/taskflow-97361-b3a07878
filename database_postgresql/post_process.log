@@ -317,3 +317,155 @@ PostgreSQL is starting on port 5000...
 	      JOIN columns c ON t.column_id = c.id
 	      ORDER BY c.position, t.position
 	    
+2025-07-01 05:47:26.849 UTC [18183] ERROR:  column t.column_id does not exist at character 334
+2025-07-01 05:47:26.849 UTC [18183] STATEMENT:  
+	      SELECT 
+	        t.id,
+	        t.title,
+	        t.description,
+	        t.priority,
+	        t.due_date,
+	        t.completed,
+	        t.position,
+	        t.created_at,
+	        t.updated_at,
+	        c.id as column_id,
+	        c.name as column_name,
+	        c.position as column_position
+	      FROM tasks t
+	      JOIN columns c ON t.column_id = c.id
+	      ORDER BY c.position, t.position
+	    
+2025-07-01 05:47:27.510 UTC [18190] ERROR:  column t.column_id does not exist at character 334
+2025-07-01 05:47:27.510 UTC [18190] STATEMENT:  
+	      SELECT 
+	        t.id,
+	        t.title,
+	        t.description,
+	        t.priority,
+	        t.due_date,
+	        t.completed,
+	        t.position,
+	        t.created_at,
+	        t.updated_at,
+	        c.id as column_id,
+	        c.name as column_name,
+	        c.position as column_position
+	      FROM tasks t
+	      JOIN columns c ON t.column_id = c.id
+	      ORDER BY c.position, t.position
+	    
+2025-07-01 05:47:27.826 UTC [18191] ERROR:  column t.column_id does not exist at character 334
+2025-07-01 05:47:27.826 UTC [18191] STATEMENT:  
+	      SELECT 
+	        t.id,
+	        t.title,
+	        t.description,
+	        t.priority,
+	        t.due_date,
+	        t.completed,
+	        t.position,
+	        t.created_at,
+	        t.updated_at,
+	        c.id as column_id,
+	        c.name as column_name,
+	        c.position as column_position
+	      FROM tasks t
+	      JOIN columns c ON t.column_id = c.id
+	      ORDER BY c.position, t.position
+	    
+2025-07-01 05:47:28.157 UTC [18192] ERROR:  column t.column_id does not exist at character 334
+2025-07-01 05:47:28.157 UTC [18192] STATEMENT:  
+	      SELECT 
+	        t.id,
+	        t.title,
+	        t.description,
+	        t.priority,
+	        t.due_date,
+	        t.completed,
+	        t.position,
+	        t.created_at,
+	        t.updated_at,
+	        c.id as column_id,
+	        c.name as column_name,
+	        c.position as column_position
+	      FROM tasks t
+	      JOIN columns c ON t.column_id = c.id
+	      ORDER BY c.position, t.position
+	    
+2025-07-01 05:51:59.674 UTC [19850] ERROR:  column t.column_id does not exist at character 334
+2025-07-01 05:51:59.674 UTC [19850] STATEMENT:  
+	      SELECT 
+	        t.id,
+	        t.title,
+	        t.description,
+	        t.priority,
+	        t.due_date,
+	        t.completed,
+	        t.position,
+	        t.created_at,
+	        t.updated_at,
+	        c.id as column_id,
+	        c.name as column_name,
+	        c.position as column_position
+	      FROM tasks t
+	      JOIN columns c ON t.column_id = c.id
+	      ORDER BY c.position, t.position
+	    
+2025-07-01 05:51:59.976 UTC [19852] ERROR:  column t.column_id does not exist at character 334
+2025-07-01 05:51:59.976 UTC [19852] STATEMENT:  
+	      SELECT 
+	        t.id,
+	        t.title,
+	        t.description,
+	        t.priority,
+	        t.due_date,
+	        t.completed,
+	        t.position,
+	        t.created_at,
+	        t.updated_at,
+	        c.id as column_id,
+	        c.name as column_name,
+	        c.position as column_position
+	      FROM tasks t
+	      JOIN columns c ON t.column_id = c.id
+	      ORDER BY c.position, t.position
+	    
+2025-07-01 05:52:00.277 UTC [19859] ERROR:  column t.column_id does not exist at character 334
+2025-07-01 05:52:00.277 UTC [19859] STATEMENT:  
+	      SELECT 
+	        t.id,
+	        t.title,
+	        t.description,
+	        t.priority,
+	        t.due_date,
+	        t.completed,
+	        t.position,
+	        t.created_at,
+	        t.updated_at,
+	        c.id as column_id,
+	        c.name as column_name,
+	        c.position as column_position
+	      FROM tasks t
+	      JOIN columns c ON t.column_id = c.id
+	      ORDER BY c.position, t.position
+	    
+2025-07-01 05:52:01.106 UTC [19866] ERROR:  column t.column_id does not exist at character 334
+2025-07-01 05:52:01.106 UTC [19866] STATEMENT:  
+	      SELECT 
+	        t.id,
+	        t.title,
+	        t.description,
+	        t.priority,
+	        t.due_date,
+	        t.completed,
+	        t.position,
+	        t.created_at,
+	        t.updated_at,
+	        c.id as column_id,
+	        c.name as column_name,
+	        c.position as column_position
+	      FROM tasks t
+	      JOIN columns c ON t.column_id = c.id
+	      ORDER BY c.position, t.position
+	    
